@@ -9,5 +9,6 @@
 <body>
 	<h1>Index page</h1>
 	<a href="./test1.jsp?name=iu">Go</a>
+	<a href="./formTest.jsp">go Form</a>
 </body>
 </html>
