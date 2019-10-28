@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h1>Index page</h1>
-	<a href="./test1.jsp">Go</a>
+	<a href="./test1.jsp?name=iu">Go</a>
 </body>
 </html>
