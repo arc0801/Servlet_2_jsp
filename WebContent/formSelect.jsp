@@ -8,20 +8,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-	<h1>Delete Form</h1>
-	<form id="form" action="formDeleteResult.jsp">
+	<h1>Form Select Page</h1>
+	<form action="formSelectResult.jsp" id="frm">
 		<input type="text" name="num">
-		<input type="button" value="Delete" id="btn">
+		<button id="btn">SELECT</button>
 	</form>
-
+	
 <script type="text/javascript">
-	$('#btn').click(function () {
-		var result = confirm("정말로 해당 번호의 정보를 삭제하시겠습니까?");
+	$('#btn').click(function() {
+		var result = confirm("해당 번호 선택?");
 		
 		if(result){
-			$('#form').submit();
+			$('#frm').submit();
 		}
-	})
-</script>
+	});
+</script>	
 </body>
 </html>
